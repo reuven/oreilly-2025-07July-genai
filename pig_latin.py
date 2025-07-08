@@ -15,9 +15,6 @@ def pl_word(word):
     else:
         return word[1:] + word[0] + 'ay'
 
-for one_word in 'computer apple papaya elephant mango'.split():
-    print(pl_word(one_word))
-
 def pl_sentence(sentence):
     """
     Translates an entire sentence into Pig Latin.
@@ -34,4 +31,8 @@ def pl_sentence(sentence):
         output.append(pl_word(one_word))
     return ' '.join(output)
 
-print(pl_sentence('this is a test sentence for my chatbot class'))
+if __name__ == "__main__":
+    for one_word in 'computer apple papaya elephant mango'.split():
+        print(pl_word(one_word))
+    
+    print(pl_sentence('this is a test sentence for my chatbot class'))
