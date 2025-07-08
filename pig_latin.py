@@ -6,4 +6,5 @@ def pl_word(word):
 
 for one_word in 'computer apple papaya elephant mango'.split():
     print(pl_word(one_word))
-    
+
+def
