@@ -1,5 +1,5 @@
 import pytest
-from pig_latin_translator import pl_word, pl_sentence
+from pig_latin import pl_word, pl_sentence
 
 
 @pytest.mark.parametrize("word, expected", [
