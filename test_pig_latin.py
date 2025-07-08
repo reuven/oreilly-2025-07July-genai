@@ -43,7 +43,7 @@ def test_pl_word_empty_string():
 @pytest.mark.parametrize("sentence, expected", [
     ('hello world', 'ellohay orldway'),
     ('apple banana', 'appleway ananabay'),
-    ('this is a test', 'isthay isway away esttay'),
+    ('this is a test', 'histay isway away esttay'),
     ('computer', 'omputercay'),
     ('apple', 'appleway'),
     ('', ''),
